@@ -54,7 +54,7 @@ openai_api_key = st.session_state.get("OPENAI_API_KEY")
 
 
 # Define la ruta al archivo que deseas leer
-file_path = "DANIEL-NOBOA-4-35.pdf"
+file_path = "./Noboa.pdf"
 
 # Asegúrate de que el archivo exista
 if not os.path.exists(file_path):
