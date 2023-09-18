@@ -56,7 +56,10 @@ openai_api_key = st.session_state.get("OPENAI_API_KEY")
 #file_path = "./Noboa.pdf"
 
 
-file_path = os.path.join(os.getcwd(), "Noboa.pdf")
+#file_path = os.path.join(os.getcwd(), "Noboa.pdf")
+
+file_path= os.path.join(os.path.dirname(os.path.abspath(__file__)), "Noboa.pdf")
+
 
 # Asegúrate de que el archivo exista
 if not os.path.exists(file_path):
@@ -117,7 +120,7 @@ if not is_open_ai_key_valid(openai_api_key, model):
     st.stop()
 
 
-with st.spinner("Analizando la respuesta⏳"):
+with st.spinner("Analizando el Plan de Gobierno⏳"):
     folder_index = embed_files(
         files=[chunked_file],
         embedding=EMBEDDING if model != "debug" else "debug",
