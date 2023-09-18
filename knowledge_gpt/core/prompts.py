@@ -13,7 +13,7 @@ RESPUESTA FINAL:
 
 ---------
 
-Por favor, utiliza este formato y responde a la siguiente pregunta utilizando los fragmentos de documentos proporcionados:
+Por favor, cree una respuesta final a las preguntas dadas utilizando los fragmentos de documentos proporcionados (dados en ningún orden específico) como fuentes. SIEMPRE incluya una sección "FUENTES" en su respuesta citando solo el conjunto mínimo de fuentes necesarias para responder a la pregunta. Si no puede responder a la pregunta, simplemente indique que no tiene suficiente información para responder a la pregunta y deje la sección FUENTES vacía. Utilice solo los documentos proporcionados y no intente fabricar una respuesta. Utiliza este formato y responde a la siguiente pregunta utilizando los fragmentos de documentos proporcionados:
 PREGUNTA: {question}
 =========
 {summaries}
