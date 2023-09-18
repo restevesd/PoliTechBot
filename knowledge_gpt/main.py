@@ -3,7 +3,6 @@ from io import BytesIO
 import os
 
 
-
 from components.sidebar import sidebar
 
 from ui import (
@@ -54,7 +53,10 @@ openai_api_key = st.session_state.get("OPENAI_API_KEY")
 
 
 # Define la ruta al archivo que deseas leer
-file_path = "./Noboa.pdf"
+#file_path = "./Noboa.pdf"
+
+
+file_path = os.path.join(os.getcwd(), "Noboa.pdf")
 
 # Asegúrate de que el archivo exista
 if not os.path.exists(file_path):
@@ -159,3 +161,5 @@ if submit:
             st.markdown(source.page_content)
             st.markdown(source.metadata["source"])
             st.markdown("---")
+
+
