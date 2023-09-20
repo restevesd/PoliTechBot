@@ -40,7 +40,8 @@ st.markdown(" ### 🤖PoliChatBot: Preguntas al Plan de Gobierno de Luisa Gonzá
 col1, col2, col3 = st.columns([4,8,1])
 
 with col2:
-    image = Image.open('Luisa.jpg')
+    file_path_img= os.path.join(os.path.dirname(os.path.abspath(__file__)), "Luisa.jpg")
+    image = Image.open(file_path_img)
     st.image(image)
 
 
