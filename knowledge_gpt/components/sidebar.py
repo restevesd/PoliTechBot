@@ -60,7 +60,7 @@ are correct.
 def sidebar():
     with st.sidebar:
         st.markdown(
-            "## IA en los Planes de Gobierno \n"
+            " "
             # "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) below🔑\n"  # noqa: E501
             # "2. Upload a pdf, docx, or txt file📄\n"
             # "3. Ask a question about the document💬\n"
@@ -80,16 +80,11 @@ def sidebar():
         # st.session_state["OPENAI_API_KEY"] = api_key
         
         
-        st.markdown("---")
-        st.markdown("# Sobre la Herramienta")
-        st.markdown(
-            "📖 PLAN-AI Analiza todo el Plan de Gobierno de los candidatos"
-        )
-        st.markdown(
-            "continuamos mejorando la herramienta. "
-
-        )
-        st.markdown("Made by .........")  # [mmz_001](https://twitter.com/mm_sasmitha)
-        st.markdown("---")
+#        st.markdown("---")
+        # st.markdown(
+        #     "Continuamos mejorando."
+        # )
+        # st.markdown("Made by .........")  # [mmz_001](https://twitter.com/mm_sasmitha)
+        # st.markdown("---")
 
         #faq()
