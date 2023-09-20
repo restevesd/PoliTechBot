@@ -33,10 +33,13 @@ import os
 import streamlit as st
 st.markdown("""
             ## 🤖PoliChatBot: ¡Descubre, Compara y Decide!
+
+            __¿Sabias qué?__ De acuerdo con el Artículo 278 de nuestra Constitución:
+
+            > Artículo 278.- El programa presentado por el candidato ganador a la Presidencia de la República será de obligatorio cumplimiento y servirá como instrumento de fiscalización ciudadana.
             
-            #### Con PoliChatBot, lleva la contienda presidencial a la palma de tu mano. Conviértete en un votante informado en minutos, no en horas.
-            Pregunta y sorpréndete. 
-            
+            Por lo tanto, no te dejes engañar con propuestas demagógicas y sin sentido. Realiza preguntas como:
+
             ¿Qué propone para mejorar el sistema de salud? 
             
             ¿Cuál es su plan para la educación? 
@@ -55,7 +58,7 @@ st.markdown("""
 show_pages(
     [
         Page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "app.py"), "Inicio", "🏠"),
-        Page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mainLG.py"), "Luisa Gonzáles", "👩‍💼"),
+        Page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mainLG.py"), "Luisa González", "👩‍💼"),
         Page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mainDN.py"), "Daniel Noboa", "👨‍💼"),
        
        
