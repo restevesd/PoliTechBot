@@ -54,7 +54,7 @@ st.markdown("""
 
 show_pages(
     [
-        Page("app.py", "Inicio", "🏠"),
+        Page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "app.py"), "Inicio", "🏠"),
         Page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mainLG.py"), "Luisa Gonzáles", "👩‍💼"),
         Page(os.path.join(os.path.dirname(os.path.abspath(__file__)), "mainDN.py"), "Daniel Noboa", "👨‍💼"),
        
