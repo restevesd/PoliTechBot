@@ -1,40 +1,18 @@
 <h1 align="center">
-📖KnowledgeGPT
+📖PoliTechBot
 </h1>
+Con PoliChatBot, lleva la contienda presidencial a la palma de tu mano. Conviértete en un votante informado en minutos, no en horas.
+Pregunta y sorpréndete.
 
-Accurate answers and instant citations for your documents.
+¿Qué propone para mejorar el sistema de salud?
 
-## 🔧 Features
+¿Cuál es su plan para la educación?
 
-- Upload documents 📁(PDF, DOCX, TXT) and answer questions about them.
-- Cite sources📚 for the answers, with excerpts from the text.
+¿Cómo combatirá la delincuencia?
 
-## 💻 Running Locally
+¡Descubre esto y más ahora!
 
-1. Clone the repository📂
+Funciones Destacadas:
 
-```bash
-git clone https://github.com/mmz-001/knowledge_gpt
-cd knowledge_gpt
-```
-
-2. Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment🔨
-
-```bash
-poetry install
-poetry shell
-```
-
-3. Run the Streamlit server🚀
-
-```bash
-cd knowledge_gpt
-streamlit run main.py
-```
-
-## 🚀 Upcoming Features
-
-- Add support for more formats (e.g. webpages 🕸️, PPTX 📊, etc.)
-- Highlight relevant phrases in citations 🔦
-- Support scanned documents with OCR 📝
-- More customization options (e.g. chain type 🔗, chunk size📏, etc.)
+🔍 Búsqueda Instantánea: Encuentra propuestas específicas en segundos.
+🔄 Comparador: Sitúa lado a lado las ideas de tus candidatos favoritos.
