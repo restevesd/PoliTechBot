@@ -34,7 +34,7 @@ import os
 import streamlit as st
 
 
-st.set_page_config(page_title="PoliTechBot", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="PoliTechBot", page_icon="🤖", layout="centered", initial_sidebar_state="expanded")
 st.markdown("""
             ## 🤖PoliChatBot: ¡Descubre, Compara y Decide!
 
@@ -57,20 +57,18 @@ st.markdown("""
 
             - 🔍 Búsqueda Instantánea: Encuentra propuestas específicas en segundos.
             - 🔄 Comparador: Sitúa lado a lado las ideas de tus candidatos favoritos.
-
-            Pregunta ahora al Plan de Gobierno de:
-
-            - [Luisa González](https://politechbot.streamlit.app/Luisa%20Gonz%C3%A1lez)
-            - [Daniel Noboa](https://politechbot.streamlit.app/Daniel%20Noboa)
-
-
             """)
+
+
+st.markdown( "Pregunta ahora al Plan de Gobierno de:")
+
+st.link_button(":blue[Luisa González]", "https://politechbot.streamlit.app/Luisa%20Gonz%C3%A1lez")
+
+st.link_button(":violet[Daniel Noboa]", "https://politechbot.streamlit.app/Daniel%20Noboa")
 
 
 
 st.markdown("Made by  [Jhon Glidden](https://jhonglidden.netlify.app) -  [LinkedIn](https://www.linkedin.com/in/jhon-glidden/) ")
-
-
 
 
 show_pages(
