@@ -32,6 +32,9 @@ from st_pages import Page, Section, add_page_title, show_pages
 import st_pages
 import os
 import streamlit as st
+
+
+st.set_page_config(page_title="PoliTechBot", page_icon="🤖", layout="wide")
 st.markdown("""
             ## 🤖PoliChatBot: ¡Descubre, Compara y Decide!
 
@@ -54,8 +57,20 @@ st.markdown("""
 
             - 🔍 Búsqueda Instantánea: Encuentra propuestas específicas en segundos.
             - 🔄 Comparador: Sitúa lado a lado las ideas de tus candidatos favoritos.
+
+            Pregunta ahora al Plan de Gobierno de:
+
+            - [Luisa González](https://jhonglidden.netlify.app)
+            - [Daniel Noboa](https://jhonglidden.netlify.app)
+
+
             """)
-st.markdown("Made by   [Jhon Glidden](https://jhonglidden.netlify.app)")
+
+
+
+st.markdown("Made by  [Jhon Glidden](https://jhonglidden.netlify.app) -  [LinkedIn](https://www.linkedin.com/in/jhon-glidden/) ")
+
+
 
 
 show_pages(

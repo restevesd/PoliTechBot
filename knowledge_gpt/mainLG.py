@@ -87,7 +87,7 @@ with open(file_path, "rb") as f:
 
 
 #################################
-model: str = st.selectbox("Modelo", options=MODEL_LIST)  # type: ignore
+#model: str = st.selectbox("Modelo", options=MODEL_LIST)  # type: ignore
 
 
 if not uploaded_file:
@@ -108,6 +108,7 @@ if not is_file_valid(file):
 
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 
+model="gpt-3.5-turbo"
 if not is_open_ai_key_valid(openai_api_key, model):
     st.stop()
 
@@ -123,8 +124,9 @@ with st.spinner("Analizando el Plan de Gobierno⏳"):
 with st.form(key="qa_form"):
     query = st.text_area("Realice sus preguntas al Plan de Gobierno")
     submit = st.form_submit_button("Consulta")
-    
-st.markdown("Made by   [Jhon Glidden](https://jhonglidden.netlify.app)")
+
+
+st.markdown("Made by  [Jhon Glidden](https://jhonglidden.netlify.app) -  [LinkedIn](https://www.linkedin.com/in/jhon-glidden/) ")
 
 with st.expander("Opciones avanzadas"):
     return_all_chunks = st.checkbox("Mostrar todos los chunks recuperados de la búsqueda vectorial")
