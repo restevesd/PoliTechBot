@@ -24,7 +24,7 @@ def bootstrap_caching():
     ]
     file_hash_funcs: HashFuncsDict = {cls: file_hash_func for cls in file_subtypes}
 
-    parsing.read_file = st.cache_data(show_spinner=False)(parsing.read_file)
+    parsing.read_file = st.cache_resource(show_spinner=False)(parsing.read_file)
     chunking.chunk_file = st.cache_data(show_spinner=False, hash_funcs=file_hash_funcs)(
         chunking.chunk_file
     )

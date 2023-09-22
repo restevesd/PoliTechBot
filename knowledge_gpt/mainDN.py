@@ -124,6 +124,7 @@ with st.form(key="qa_form"):
     query = st.text_area("Realice sus preguntas al Plan de Gobierno")
     submit = st.form_submit_button("Consulta")
 
+st.markdown("Made by   [Jhon Glidden](https://jhonglidden.netlify.app)")
 with st.expander("Opciones avanzadas"):
     return_all_chunks = st.checkbox("Mostrar todos los chunks recuperados de la búsqueda vectorial")
     show_full_doc = st.checkbox("Mostrar el contenido analizado del documento")

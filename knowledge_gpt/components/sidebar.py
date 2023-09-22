@@ -84,7 +84,7 @@ def sidebar():
         # st.markdown(
         #     "Continuamos mejorando."
         # )
-        # st.markdown("Made by .........")  # [mmz_001](https://twitter.com/mm_sasmitha)
+        #st.markdown("Made by   [Jhon Glidden](https://twitter.com/mm_sasmitha)")
         # st.markdown("---")
 
         #faq()

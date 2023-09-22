@@ -29,6 +29,7 @@
 
 
 from st_pages import Page, Section, add_page_title, show_pages
+import st_pages
 import os
 import streamlit as st
 st.markdown("""
@@ -54,6 +55,8 @@ st.markdown("""
             - 🔍 Búsqueda Instantánea: Encuentra propuestas específicas en segundos.
             - 🔄 Comparador: Sitúa lado a lado las ideas de tus candidatos favoritos.
             """)
+st.markdown("Made by   [Jhon Glidden](https://jhonglidden.netlify.app)")
+
 
 show_pages(
     [
