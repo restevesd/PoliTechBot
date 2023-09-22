@@ -60,8 +60,8 @@ st.markdown("""
 
             Pregunta ahora al Plan de Gobierno de:
 
-            - [Luisa González](https://jhonglidden.netlify.app)
-            - [Daniel Noboa](https://jhonglidden.netlify.app)
+            - [Luisa González](https://politechbot.streamlit.app/Luisa%20Gonz%C3%A1lez)
+            - [Daniel Noboa](https://politechbot.streamlit.app/Daniel%20Noboa)
 
 
             """)
