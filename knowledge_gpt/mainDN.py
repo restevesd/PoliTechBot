@@ -32,7 +32,7 @@ MODEL_LIST = ["gpt-3.5-turbo"]#, "gpt-4"]
 
 
 
-st.set_page_config(page_title="Plan de Gobierno de Luisa González", page_icon="📖", layout="centered",initial_sidebar_state="auto")
+st.set_page_config(page_title="Plan de Gobierno de Luisa González", page_icon="📖", layout="centered")
 st.markdown(" ### 🤖PoliChatBot: Preguntas al Plan de Gobierno de Daniel Noboa")
 
 
