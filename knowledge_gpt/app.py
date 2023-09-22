@@ -34,7 +34,7 @@ import os
 import streamlit as st
 
 
-st.set_page_config(page_title="PoliTechBot", page_icon="🤖", layout="centered", initial_sidebar_state="expanded")
+st.set_page_config(page_title="PoliTechBot", page_icon="🤖", layout="centered", initial_sidebar_state="auto")
 st.markdown("""
             ## 🤖PoliChatBot: ¡Descubre, Compara y Decide!
 
@@ -60,11 +60,11 @@ st.markdown("""
             """)
 
 
-st.markdown( "Pregunta ahora al Plan de Gobierno de:")
+st.markdown( "Escoja y realice sus preguntsa al Plan de Gobierno de:")
 
-st.link_button(":blue[Luisa González]", "https://politechbot.streamlit.app/Luisa%20Gonz%C3%A1lez")
+st.link_button("Luisa González", "https://politechbot.streamlit.app/Luisa%20Gonz%C3%A1lez")
 
-st.link_button(":violet[Daniel Noboa]", "https://politechbot.streamlit.app/Daniel%20Noboa")
+st.link_button("Daniel Noboa", "https://politechbot.streamlit.app/Daniel%20Noboa")
 
 
 
